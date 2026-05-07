@@ -1,7 +1,6 @@
 venv/
 bert_results/
 results/
-models/
 *.pt
 *.bin
 *.safetensors
