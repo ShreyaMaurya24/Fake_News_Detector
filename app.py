@@ -9,7 +9,7 @@ import re
 import nltk
 import torch
 import time
-
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 
