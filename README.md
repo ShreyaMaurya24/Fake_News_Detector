@@ -7,7 +7,7 @@ This project can classify news articles as **REAL** or **FAKE** with high accura
 
 # 🚀 Live Demo
 
-🔗 Add your deployed Streamlit link here
+🔗 Deployed Streamlit link here
 https://shreyamaurya24-fake-news-detector-app-ulo0vo.streamlit.app/
 
 ---
@@ -175,8 +175,6 @@ The application provides:
 # 📸 Screenshots
 
 ## Home Page
-
-Add screenshot here
 
 ```bash
 https://drive.google.com/file/d/1q69A_Yq3BUCYrvijlpPgrd_SeEwdrZ6V/view?usp=drive_link
