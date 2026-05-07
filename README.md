@@ -8,10 +8,7 @@ This project can classify news articles as **REAL** or **FAKE** with high accura
 # 🚀 Live Demo
 
 🔗 Add your deployed Streamlit link here
-
-Example:
-
-https://your-app-name.streamlit.app
+https://shreyamaurya24-fake-news-detector-app-ulo0vo.streamlit.app/
 
 ---
 
@@ -200,7 +197,7 @@ screenshots/result.png
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/fake-news-detector.git
+git clone https://github.com/ShreyaMaurya24/Fake_News_Detector.git
 ```
 
 ---
@@ -208,7 +205,7 @@ git clone https://github.com/your-username/fake-news-detector.git
 ## 2️⃣ Navigate to Project Folder
 
 ```bash
-cd fake-news-detector
+cd FAKE_NEWS_DETECTION
 ```
 
 ---
