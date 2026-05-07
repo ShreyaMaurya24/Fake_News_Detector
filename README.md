@@ -179,16 +179,14 @@ The application provides:
 Add screenshot here
 
 ```bash
-"C:\Users\msges\.vscode\fake_news_detection\screenshots\home.png"
+https://drive.google.com/file/d/1q69A_Yq3BUCYrvijlpPgrd_SeEwdrZ6V/view?usp=drive_link
 ```
 
 ## Prediction Result
 
-Add screenshot here
-
 ```bash
-"C:\Users\msges\.vscode\fake_news_detection\screenshots\ML_result.png"
-"C:\Users\msges\.vscode\fake_news_detection\screenshots\bert_result.png"
+https://drive.google.com/file/d/1OMSzH-zceg8i73phZXPxHILwkZZXZ-s9/view?usp=drive_link
+https://drive.google.com/file/d/1ExVugv-uNacHnPj_i6OZM4XF-flNwEp4/view?usp=drive_link
 ```
 
 ---
@@ -300,10 +298,9 @@ Through this project, I learned:
 
 # 👩‍💻 Author
 
-Your Name
-
-LinkedIn: Add your LinkedIn link  
-GitHub: Add your GitHub profile link
+Shreya Maurya
+  
+GitHub: https://github.com/ShreyaMaurya24
 
 ---
 
