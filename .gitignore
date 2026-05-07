@@ -1,8 +1,4 @@
 venv/
 bert_results/
 results/
-*.pt
-*.bin
-*.safetensors
-*.pkl
 __pycache__/
