@@ -179,7 +179,7 @@ The application provides:
 Add screenshot here
 
 ```bash
-screenshots/home.png
+"C:\Users\msges\.vscode\fake_news_detection\screenshots\home.png"
 ```
 
 ## Prediction Result
@@ -187,7 +187,8 @@ screenshots/home.png
 Add screenshot here
 
 ```bash
-screenshots/result.png
+"C:\Users\msges\.vscode\fake_news_detection\screenshots\ML_result.png"
+"C:\Users\msges\.vscode\fake_news_detection\screenshots\bert_result.png"
 ```
 
 ---
