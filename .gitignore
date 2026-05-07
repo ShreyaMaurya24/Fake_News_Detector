@@ -2,3 +2,4 @@ venv/
 bert_results/
 results/
 __pycache__/
+models/bert_model/
