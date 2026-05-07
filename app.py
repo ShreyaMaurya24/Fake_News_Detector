@@ -12,10 +12,6 @@ import time
 
 from nltk.corpus import stopwords
 
-from transformers import (
-    BertTokenizer,
-    BertForSequenceClassification
-)
 
 # ======================================================
 # PAGE CONFIG
@@ -247,13 +243,7 @@ vectorizer = pickle.load(
 # ======================================================
 # LOAD BERT MODEL
 # ======================================================
-bert_tokenizer = BertTokenizer.from_pretrained(
-    "models/bert_model"
-)
 
-bert_model = BertForSequenceClassification.from_pretrained(
-    "models/bert_model"
-)
 
 # ======================================================
 # TEXT CLEANING FUNCTION
@@ -276,28 +266,7 @@ def clean_text(text):
 # ======================================================
 # BERT PREDICTION FUNCTION
 # ======================================================
-def predict_bert(text):
 
-    inputs = bert_tokenizer(
-        text,
-        return_tensors="pt",
-        truncation=True,
-        padding=True,
-        max_length=128
-    )
-
-    outputs = bert_model(**inputs)
-
-    probs = torch.nn.functional.softmax(
-        outputs.logits,
-        dim=1
-    )
-
-    prediction = torch.argmax(probs).item()
-
-    confidence = torch.max(probs).item() * 100
-
-    return prediction, confidence
 
 # ======================================================
 # HEADER
@@ -401,7 +370,7 @@ st.markdown(
 
 model_choice = st.radio(
     "🔍 Choose Prediction Model",
-    ["ML Model", "BERT Model"],
+    ["ML Model"],
     horizontal=True
 )
 
@@ -471,12 +440,7 @@ if predict_button:
             # ==========================================
             # BERT MODEL
             # ==========================================
-            else:
-
-                prediction, confidence = predict_bert(
-                    news_input
-                )
-
+            
         st.markdown("---")
 
         st.subheader("📊 Prediction Result")
